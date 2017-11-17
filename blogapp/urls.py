@@ -6,4 +6,5 @@ urlpatterns = [
     url(r"posts/(\d+)", viewpost, name="viewpost"),
     url(r"new", newpost, name="new"),
     url(r"^posts/(\d+)/edit", editpost, name="editpost")
+    
     ]
